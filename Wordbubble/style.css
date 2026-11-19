@@ -1,0 +1,16 @@
+body {background-color: lightblue;
+color: black}
+#game-title{color:navy}
+#score{color:navy}
+#lives{color:navy}
+#game-area{width: 600px;height: 350px;background-color: white;margin: 20px auto;border-radius: 15px;
+    overflow:hidden;position:relative;}
+.bubble{width: 100px;height:100px;background-color:lightblue;border-radius: 50%;position:absolute;
+    display:inline-flex;justify-content:center;align-items:center;bottom:0;animation: floatUp 8s linear forwards;}
+@keyframes floatUp{
+from {transform: translateY(0);}
+to {transform: translateY(-350px)}
+}
+
+
+#controls{display:flex;justify-content:center;gap:10px}    
